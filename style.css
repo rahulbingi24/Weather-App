@@ -137,3 +137,57 @@ body {
 .weather {
   display: none;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+    padding: 25px 20px;
+    border-radius: 16px;
+  }
+
+  .search {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .search input {
+    flex: 1;
+    height: 50px;
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .weather-icon {
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  .weather h1 {
+    font-size: 48px;
+  }
+
+  .weather h2 {
+    font-size: 28px;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    padding: 0;
+  }
+
+  .col {
+    justify-content: center;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 18px;
+  }
+}
